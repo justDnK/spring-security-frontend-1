@@ -174,3 +174,36 @@
     display: block;
     margin-bottom: 15px;
 }
+
+/* ----------------------------------------------- login -------------------------------------- */
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+.container-login .form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login .title-login {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container-login .form-login .pole-login {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container-login .form-login .button-login {
+    display: block;
+}
